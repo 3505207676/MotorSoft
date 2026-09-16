@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotorSoft - Taller El Paisa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #fff;
+        }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        p { opacity: 0.9; margin-bottom: 2rem; }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 12px 24px;
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.3);
+            transition: background 0.2s;
+        }
+        .links a:hover { background: rgba(255,255,255,0.3); }
+    </style>
+</head>
+<body>
+    <h1><i class="fas fa-tools"></i> MotorSoft</h1>
+    <p>Taller El Paisa - Sistema de gestión</p>
+    <div class="links">
+        <a href="../views/auth/login.php"><i class="fas fa-sign-in-alt"></i> Iniciar sesión</a>
+        <a href="../views/bienvenida/index.php"><i class="fas fa-home"></i> Página de bienvenida</a>
+        <a href="../views/clientes/index.php"><i class="fas fa-address-book"></i> Clientes y Vehículos</a>
+        <a href="../views/agenda/index.php"><i class="fas fa-calendar-alt"></i> Agenda y Citas</a>
+        <a href="../views/dashboard/index-mecanicos.php"><i class="fas fa-wrench"></i> App Mecánicos</a>
+        <a href="../views/dashboard/index-trabajadores.php"><i class="fas fa-user-tie"></i> App Trabajadores</a>
+        <a href="../views/cliente/P_Inicio.php"><i class="fas fa-user"></i> Panel Cliente</a>
+    </div>
+</body>
+</html>
