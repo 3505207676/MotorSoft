@@ -1,0 +1,3 @@
+# InfinityFree / Apache
+# Solo define el archivo de entrada. Sin RewriteRule (en InfinityFree a veces causa 404).
+DirectoryIndex index.php index.html
