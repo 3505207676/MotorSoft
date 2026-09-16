@@ -1,0 +1,24 @@
+[
+    {
+        "id": "20260915132556_6e91ce",
+        "fecha": "2026-09-15 13:25:56",
+        "tipo": "verify",
+        "ok": true,
+        "detalle": "Meta (o prueba local) validó el webhook"
+    },
+    {
+        "telefono": "573105550101",
+        "id": "20260915132415_e9a7a0",
+        "fecha": "2026-09-15 13:24:15",
+        "tipo": "simulado",
+        "ok": true,
+        "detalle": "1 mensaje(s), 0 estado(s)"
+    },
+    {
+        "id": "20260915132415_1c403a",
+        "fecha": "2026-09-15 13:24:15",
+        "tipo": "verify",
+        "ok": true,
+        "detalle": "Meta (o prueba local) validó el webhook"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "id": "20260915131338_afdc5229",
+        "fecha": "2026-09-15 13:13:38",
+        "para": "admin@tallerpaisa.com",
+        "asunto": "Prueba de correo — Taller El Paisa",
+        "canal": "local",
+        "ok": true,
+        "error": null
+    },
+    {
+        "id": "20260915131214_3f23ae26",
+        "fecha": "2026-09-15 13:12:14",
+        "para": "admin@tallerpaisa.com",
+        "asunto": "Restablecer contraseña — Taller El Paisa",
+        "canal": "local",
+        "ok": true,
+        "error": null
+    },
+    {
+        "id": "20260915130854_57247c8f",
+        "fecha": "2026-09-15 13:08:54",
+        "para": "admin@tallerpaisa.com",
+        "asunto": "Prueba de correo — Taller El Paisa",
+        "canal": "local",
+        "ok": true,
+        "error": null
+    }
+]
